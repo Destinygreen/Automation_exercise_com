@@ -12,7 +12,7 @@
         {
             new DriverManager().SetUpDriver(new ChromeConfig(), VersionResolveStrategy.Latest);
             var options = new ChromeOptions();
-            //options.AddArgument("--headless");
+            options.AddArgument("--headless");
             options.AddArguments("start-maximized", "incognito");
             options.AddArgument("--disable-notifications");
             options.AddExcludedArgument("enable-automation");
