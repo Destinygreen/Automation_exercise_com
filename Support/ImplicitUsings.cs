@@ -1,0 +1,11 @@
+﻿global using TechTalk.SpecFlow;
+global using OpenQA.Selenium;
+global using OpenQA.Selenium.Chrome;
+global using WebDriverManager.DriverConfigs.Impl;
+global using WebDriverManager;
+global using Automation_exercise_com.Drivers;
+global using Microsoft.Extensions.Configuration;
+global using BoDi;
+global using WebDriverManager.Helpers;
+global using Automation_exercise_com.UsefullMethods;
+global using Automation_exercise_com.Utilities;
